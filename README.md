@@ -14,6 +14,7 @@
 
 # Структура
 
+<<<<<<< HEAD
 Каждому разделу, статье или задаче соответствует директория.
 
 Эта директория имеет вид `N-url`, где `N` - это номер для сортировки статей и разделов (они упорядочены), а `url` – URL-имя, по которому материал будет доступен.
@@ -23,6 +24,12 @@
   - `index.md` для раздела
   - `article.md` для статьи
   - `task.md` для условия задачи (+там же `solution.md` с решением)
+=======
+1. First, check if the translation has already started in the list above or in issues. If it exists, contact the original lead, ask him  to join efforts. If the translation is stalled, ask him to transfer the repo to you or just create a new one and continue from where they stopped.
+2. If there's no such translation, create a new one. Clone the repository, change its name to `javascript-tutorial-<lang>` (by your language) and [create an issue](https://github.com/iliakan/javascript-tutorial-en/issues/new) for me to add you to the list.
+
+**You can edit the text in any editor.** The tutorial uses enhanced "markdown" format, easy to grasp. And if you want to see how it looks on-site, there's a server to run the tutorial locally at <https://github.com/iliakan/javascript-tutorial-server>.  
+>>>>>>> en/master
 
 Каждый из этих файлов начинается с `# Заголовка материала`, и дальше текст в формате а-ля Markdown. Его довольно просто понять. Для редактирования достаточно простого текстового редактора.
 
